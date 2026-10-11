@@ -1,0 +1,56 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ x86_64-macos, arm64e-macos ]
+install-name:    '/System/Library/PrivateFrameworks/Ecosystem.framework/Versions/A/Ecosystem'
+current-version: 11
+swift-abi-version: 7
+exports:
+  - targets:         [ x86_64-macos, arm64e-macos ]
+    symbols:         [ '_$s9Ecosystem0A23NotificationPreferencesC18clearNotificationsyyFZ', 
+                       '_$s9Ecosystem0A23NotificationPreferencesC33getNotifyOnRosettaUsagePreferenceSbyFZ', 
+                       '_$s9Ecosystem0A23NotificationPreferencesC33setNotifyOnRosettaUsagePreferenceyySbFZ', 
+                       '_$s9Ecosystem0A23NotificationPreferencesCACycfC', '_$s9Ecosystem0A23NotificationPreferencesCACycfc', 
+                       '_$s9Ecosystem0A23NotificationPreferencesCMa', '_$s9Ecosystem0A23NotificationPreferencesCMn', 
+                       '_$s9Ecosystem0A23NotificationPreferencesCMo', '_$s9Ecosystem0A23NotificationPreferencesCN', 
+                       '_$s9Ecosystem0A23NotificationPreferencesCfD', '_$s9Ecosystem21ProcessReporterClientC03getB5ItemsSaySo12NSDictionaryCGSgyF', 
+                       '_$s9Ecosystem21ProcessReporterClientCACycfC', '_$s9Ecosystem21ProcessReporterClientCACycfc', 
+                       '_$s9Ecosystem21ProcessReporterClientCMa', '_$s9Ecosystem21ProcessReporterClientCMn', 
+                       '_$s9Ecosystem21ProcessReporterClientCMo', '_$s9Ecosystem21ProcessReporterClientCN', 
+                       '_$s9Ecosystem21ProcessReporterClientCfD', '_$s9Ecosystem22UnsupportedApplicationC10bundlePathSSvg', 
+                       '_$s9Ecosystem22UnsupportedApplicationC10bundlePathSSvpMV', 
+                       '_$s9Ecosystem22UnsupportedApplicationC10websiteURL10Foundation0E0VSgvg', 
+                       '_$s9Ecosystem22UnsupportedApplicationC10websiteURL10Foundation0E0VSgvpMV', 
+                       '_$s9Ecosystem22UnsupportedApplicationC14lastOpenedDate10Foundation0F0VSgvg', 
+                       '_$s9Ecosystem22UnsupportedApplicationC14lastOpenedDate10Foundation0F0VSgvpMV', 
+                       '_$s9Ecosystem22UnsupportedApplicationC15bundleDeveloperSSSgvg', 
+                       '_$s9Ecosystem22UnsupportedApplicationC15bundleDeveloperSSSgvpMV', 
+                       '_$s9Ecosystem22UnsupportedApplicationC21bundleDisplayableName0D4Path0D2ID0D9Developer23hasAdditionalComponents14lastOpenedDate10websiteURLACSS_S2SSgAKSb10Foundation0O0VSgAL0Q0VSgtcfC', 
+                       '_$s9Ecosystem22UnsupportedApplicationC21bundleDisplayableName0D4Path0D2ID0D9Developer23hasAdditionalComponents14lastOpenedDate10websiteURLACSS_S2SSgAKSb10Foundation0O0VSgAL0Q0VSgtcfCTj', 
+                       '_$s9Ecosystem22UnsupportedApplicationC21bundleDisplayableName0D4Path0D2ID0D9Developer23hasAdditionalComponents14lastOpenedDate10websiteURLACSS_S2SSgAKSb10Foundation0O0VSgAL0Q0VSgtcfCTq', 
+                       '_$s9Ecosystem22UnsupportedApplicationC21bundleDisplayableName0D4Path0D2ID0D9Developer23hasAdditionalComponents14lastOpenedDate10websiteURLACSS_S2SSgAKSb10Foundation0O0VSgAL0Q0VSgtcfc', 
+                       '_$s9Ecosystem22UnsupportedApplicationC21bundleDisplayableNameSSvg', 
+                       '_$s9Ecosystem22UnsupportedApplicationC21bundleDisplayableNameSSvpMV', 
+                       '_$s9Ecosystem22UnsupportedApplicationC23hasAdditionalComponentsSbvg', 
+                       '_$s9Ecosystem22UnsupportedApplicationC23hasAdditionalComponentsSbvpMV', 
+                       '_$s9Ecosystem22UnsupportedApplicationC8bundleIDSSSgvg', '_$s9Ecosystem22UnsupportedApplicationC8bundleIDSSSgvpMV', 
+                       '_$s9Ecosystem22UnsupportedApplicationCACycfC', '_$s9Ecosystem22UnsupportedApplicationCACycfc', 
+                       '_$s9Ecosystem22UnsupportedApplicationCMa', '_$s9Ecosystem22UnsupportedApplicationCMn', 
+                       '_$s9Ecosystem22UnsupportedApplicationCMo', '_$s9Ecosystem22UnsupportedApplicationCMu', 
+                       '_$s9Ecosystem22UnsupportedApplicationCN', '_$s9Ecosystem22UnsupportedApplicationCfD', 
+                       '_$s9Ecosystem24DeprecationWarningClientC017shouldShowRosettabC0SbyF', 
+                       '_$s9Ecosystem24DeprecationWarningClientCACycfC', '_$s9Ecosystem24DeprecationWarningClientCACycfc', 
+                       '_$s9Ecosystem24DeprecationWarningClientCMa', '_$s9Ecosystem24DeprecationWarningClientCMn', 
+                       '_$s9Ecosystem24DeprecationWarningClientCMo', '_$s9Ecosystem24DeprecationWarningClientCN', 
+                       '_$s9Ecosystem24DeprecationWarningClientCfD', '_$s9Ecosystem32UnsupportedApplicationListClientC03getcD0SaySo12NSDictionaryCGSgyF', 
+                       '_$s9Ecosystem32UnsupportedApplicationListClientC15getApplicationsSayAA0bC0CGSgyF', 
+                       '_$s9Ecosystem32UnsupportedApplicationListClientC23isSupportedRosettaUsage11forBundleIDSbSS_tF', 
+                       '_$s9Ecosystem32UnsupportedApplicationListClientC23isSupportedRosettaUsage7forPathSbSS_tF', 
+                       '_$s9Ecosystem32UnsupportedApplicationListClientCACycfC', 
+                       '_$s9Ecosystem32UnsupportedApplicationListClientCACycfc', 
+                       '_$s9Ecosystem32UnsupportedApplicationListClientCMa', '_$s9Ecosystem32UnsupportedApplicationListClientCMn', 
+                       '_$s9Ecosystem32UnsupportedApplicationListClientCMo', '_$s9Ecosystem32UnsupportedApplicationListClientCN', 
+                       '_$s9Ecosystem32UnsupportedApplicationListClientCfD', _EcosystemVersionNumber, 
+                       _EcosystemVersionString, _kEcosystemRosettaKBURL ]
+    objc-classes:    [ DeprecationWarningClient, EcosystemNotificationPreferences, 
+                       ProcessReporterClient, UnsupportedApplication, UnsupportedApplicationListClient ]
+...
